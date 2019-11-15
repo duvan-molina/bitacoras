@@ -5,5 +5,21 @@
 }
 .navbar .nav-item .nav-link{
   color: #fff;
-
+}
+.headerMain{
+  background-image: url('https://i.pinimg.com/originals/00/91/07/0091079373ec5fb49647e1a64f2feb49.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center center;
+}
+.headerMain::before{
+  content: '';
+  position: absolute;
+  background-color: #000;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.6;
 }
