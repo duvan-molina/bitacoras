@@ -32,6 +32,16 @@
 .espacio{
   margin: 20px 0 20px 0;
 }
+.header{
+  color: #fff;
+  text-transform: capitalize;
+}
 .centrado{
   text-align: center;
+}
+.centrar{
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
