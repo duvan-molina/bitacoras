@@ -15,7 +15,7 @@
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 60vh;
+  height: 30vh;
   background-position: center center;
 }
 .headerMain::before{
@@ -24,43 +24,33 @@
   background-color: #000;
   top: 0;
   bottom: 0;
-  height: 60vh;
+  height: 30vh;
   left: 0;
   right: 0;
   opacity: 0.5;
 }
-.portafolio{
+.sobre-mi{
   margin: 20px 0;
 }
-.espacio{
-  margin: 20px 0 20px 0;
-  text-align: center;
-}
-.header{
-  color: #fff;
-  text-transform: capitalize;
-}
-.centrado{
-  text-align: center;
-  text-transform: capitalize;
-}
-.sobre-mi-centro h1{
-  text-transform: capitalize;
-}
 .centrar{
-  height: 60vh;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.footer{
-  color: #fff;
-  display: flex;
-  margin-top: auto;
-  background: #15171a;
+.card{
+  width: 18rem !important;
 }
-.ordenado{
+.card-title {
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.header{
+  text-transform: capitalize;
+  color: #fff;
+}
+.item{
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
 }
