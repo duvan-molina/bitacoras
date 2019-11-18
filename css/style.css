@@ -32,11 +32,9 @@
 .portafolio{
   margin: 20px 0;
 }
-.habilidades{
-  margin: 20px 0;
-}
 .espacio{
   margin: 20px 0 20px 0;
+  text-align: center;
 }
 .header{
   color: #fff;
@@ -44,6 +42,7 @@
 }
 .centrado{
   text-align: center;
+  text-transform: capitalize;
 }
 .centrar{
   height: 60vh;
@@ -57,9 +56,8 @@
   margin-top: auto;
   background: #15171a;
 }
-.footer .container{
+.ordenado{
   display: flex;
-  height: 70px;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
