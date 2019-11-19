@@ -54,3 +54,9 @@
   flex-direction: column;
   align-items: center;
 }
+.justificado{
+  text-align: justify;
+}
+.modal-title, .modal-nombre{
+  text-transform: capitalize;
+}
