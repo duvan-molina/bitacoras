@@ -60,3 +60,6 @@
 .modal-title, .modal-nombre{
   text-transform: capitalize;
 }
+.sobre-mi-centrado{
+  margin-bottom: 20px;
+}
