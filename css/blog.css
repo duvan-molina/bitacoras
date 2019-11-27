@@ -30,7 +30,9 @@
   opacity: 0.5;
 }
 .sobre-mi{
-  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  margin: 20px 20px;
 }
 .centrar{
   height: 30vh;
