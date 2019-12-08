@@ -2,120 +2,67 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
-  <title>Document</title>
+  <title>Home</title>
 </head>
 <body>
-  <header class="headerMain">
-    <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portafolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Habilidades</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
-              </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="header">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center centrar">
-            <h1>soy duvan molina</h1>
-            <p>desarrollador web</p>
-          </div>
-        </div>
-      </div>
+  <header class="Header">
+    <div class="container-fluid contenedor">
+      <nav class="Header-nav">
+        <a href="/"><img src="images/logo.svg" alt="logo"></a>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
-  <section class="portafolio">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 centrado">
-          <h2>mi portafolio</h2>
-          <p>proyectos destacados</p>
-        </div>
+  <section class="Hero">
+    <div class="Hero-contenedor container">
+      <div class="Hero-info">
+        <p>Hola! mi nombre es <span>duvan molina</span> <br>en esta ocasion voy hablarles un poquito mas acerca de mi, mis motivaciones, propositos, mis fortalezas, mis debelidades, etc. Acompañame en estas fantasticas historias haciendo click en ver mas.</p>
+        <a class=" btn btn-success"href="/">Ver mas...</a>
       </div>
-      <div class="row">
-        <div class="col-md-6">
+      <div class="Hero-img">
+        <img src="/images/astronautas.svg" alt="logo">
+      </div>
+    </div>
+  </section>
+  <section class="tarjetas">
+    <div class="container">
+      <h2>lo mejor de lo mejor</h2>
+      <div class="tarjetas-items row">
+        <div class="tarjetas-item col-md-6">
           <div class="card mb-3" style="max-width: 540px;">
             <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="..." class="card-img" alt="...">
+              <div class="col-md-4 version">
+                <p>Versión <br>1.1</p>
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <button type="button" class="btn btn-primary">Ver Proyecto</button>
+                  <h5 class="card-title">Introducción</h5>
+                  <p class="card-text">Generalmente los programadores no cometemos errores, simplemente mandamos a produccón una versión 1.0. Entonces esta es la versión 1.1 y he corregido algunos errores.</p>
+                  <button class="btn btn-primary">Ver mas</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="tarjetas-item col-md-6">
           <div class="card mb-3" style="max-width: 540px;">
             <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="..." class="card-img" alt="...">
+              <div class="col-md-4 ">
+                <img src="https://scontent.fclo1-2.fna.fbcdn.net/v/t1.0-9/s960x960/61430883_2334242283334064_8593945442914402304_o.jpg?_nc_cat=100&_nc_ohc=OsBnq7lAd4kAQl7GdFa7ykYdEAA_HRBj5bxDx2H6zBMaE7pmWds8W0p3w&_nc_ht=scontent.fclo1-2.fna&oh=a3411247fc8f618ac680146fc9648625&oe=5E870749" class="version-img card-img" alt="...">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <button type="button" class="btn btn-primary">Ver Proyecto</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="..." class="card-img" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <button type="button" class="btn btn-primary">Ver Proyecto</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="..." class="card-img" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <button type="button" class="btn btn-primary">Ver Proyecto</button>
+                  <h5 class="card-title">¿Quién diablos es Duvan Molina?</h5>
+                  <p class="card-text">voy a contarles un resumen de mi historia de vida, donde abarcare los casos mas importantes que me han sucecido y como lo he superado.</p>
+                  <button class="btn btn-primary">Ver mas</button>
                 </div>
               </div>
             </div>
@@ -124,61 +71,5 @@
       </div>
     </div>
   </section>
-  <section class="habilidades">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 centrado">
-          <h2>mis habilidades</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 espacio">
-          <span class="habilidades-span">HTML</span>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-            </div>
-        </div>
-        <div class="col-md-4 espacio">
-          <span class="habilidades-span">CSS</span>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-          </div>
-        </div>
-        <div class="col-md-4 espacio">
-          <span class="habilidades-span">JavaScript</span>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-          </div>
-        </div>
-        <div class="col-md-4 espacio">
-          <span class="habilidades-span">React</span>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-          </div>
-        </div>
-        <div class="col-md-4 espacio">
-          <span class="habilidades-span">Vue</span>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-        </div>
-        </div>
-        <div class="col-md-4 espacio">
-          <span class="habilidades-span">Git</span>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <footer class="footer">
-    <div class="container">
-      <div class="col-md-12 ordenado">
-        <p>Hecho con amor desde colombia 🇨🇴</p>
-        <p class="footer-contacto"><a href="#">Contacto</a></p>
-      </div>
-    </div>
-  </footer>
-  <script src="js/main.js"></script>
 </body>
 </html>
