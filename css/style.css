@@ -15,8 +15,8 @@ a:hover {
   height: 60px;
   z-index: 1;
   width: 100%;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
   background-color: #1C3643;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
 }
 
 .contenedor {
@@ -27,6 +27,7 @@ a:hover {
 
 .Header-nav {
   width: 100%;
+  background-color: #1C3643;
   height: inherit;
   display: flex;
   justify-content: space-between;
@@ -40,6 +41,7 @@ a:hover {
 }
 
 .Header-nav ul li a{
+  font-size: 1.2rem;
   color: #fff;
 }
 
@@ -108,4 +110,54 @@ h2 {
 
 .version-img {
   height: 100%;
+}
+
+.Header-ocultar {
+  display: none;
+}
+
+/* parte responsive */
+@media screen and (max-width: 767px){
+  .contenedor {
+    margin: 0;
+    padding: 0;
+  }
+  .Hero-img{
+    display: none;
+  }
+  .Hero-info {
+    width: 90%;
+    margin: auto;
+    font-size: .9em;
+  }
+  .Header-ocultar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    height: 60px;
+  }
+  .Header-ocultar i {
+    font-size: 1.6em;
+    color: #fff;
+    cursor: pointer;
+  }
+  .Header-nav-ocultar {
+    display: none;
+  }
+  .Header-nav {
+    width: 55%;
+    left: -100vh;
+    top: 60px;
+    position: fixed;
+    z-index: 1000;
+    height: 100vh;
+    display: block;
+  }
+  .Header-nav ul {
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+  }
 }
