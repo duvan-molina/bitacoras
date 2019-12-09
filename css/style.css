@@ -148,12 +148,16 @@ h2 {
   }
   .Header-nav {
     width: 55%;
-    left: -100vh;
+    left: -100vw;
     top: 60px;
     position: fixed;
     z-index: 1000;
     height: 100vh;
     display: block;
+    transition: .7s;
+  }
+  .Header-nav.Header-active{
+    left: 0;
   }
   .Header-nav ul {
     flex-direction: column;
