@@ -3,7 +3,6 @@ const nav = document.getElementById('nav');
 const barra = document.getElementById('nav-barra');
 const tablet = window.matchMedia('screen and (max-width: 767px)');
 
-
 tablet.addListener(validation);
 
 function validation(event){
@@ -23,3 +22,6 @@ function hideShow () {
   }
 }
 /* fin del nav */
+function remove(){
+  nav.classList.remove('Header-active');
+}
