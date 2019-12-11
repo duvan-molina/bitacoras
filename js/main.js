@@ -25,9 +25,3 @@ function hideShow () {
 function remove(){
   nav.classList.remove('Header-active');
 }
-
-validation(remove);
-
-function remove(){
-  nav.classList.remove('Header-active');
-}
