@@ -115,7 +115,23 @@ h2 {
 .Header-ocultar {
   display: none;
 }
-
+.Footer {
+  position: relative;
+  top: 60px;
+  display: flex;
+  padding: 10px 0;
+  height: 60px;
+  background-color: #1C3643;
+}
+.Footer-container {
+  color: #f4f4f4;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.Footer-container p {
+  margin: initial;
+}
 /* parte responsive */
 @media screen and (max-width: 767px){
   .contenedor {
@@ -147,7 +163,7 @@ h2 {
     display: none;
   }
   .Header-nav {
-    width: 55%;
+    width: 75%;
     left: -100vw;
     top: 60px;
     position: fixed;
@@ -164,4 +180,11 @@ h2 {
     width: 80%;
     margin: auto;
   }
+
+@media screen and (max-width: 450px){
+  .Footer-container {
+    display: initial;
+    text-align: center;
+  }
+}
 }
