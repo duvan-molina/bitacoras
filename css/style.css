@@ -176,11 +176,13 @@ h2 {
     left: 0;
   }
   .Header-nav ul {
+    height: 100vw;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     width: 80%;
     margin: auto;
   }
-
 @media screen and (max-width: 450px){
   .Footer-container {
     display: initial;
