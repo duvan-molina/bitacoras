@@ -6,22 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://kit.fontawesome.com/9278b0bf88.js" crossorigin="anonymous"></script>
+  <script src="js/smooth-scroll.polyfills.min.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css">
   <title>Home</title>
 </head>
 <body>
-  <header class="Header">
+  <header class="Header" data-scroll-header>
     <div class="Header-ocultar">
-      <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+      <a href="#"><img src="images/logo.png" alt="logo"></a>
       <i class="fas fa-align-justify" id="nav-barra"></i>
     </div>
     <div class="container contenedor">
-      <nav class="Header-nav" id="nav">
-          <a class="Header-nav-ocultar"href="index.html"><img src="images/logo.png" alt="logo"></a>
+      <nav class="Header-nav" id="nav" >
+          <a class="Header-nav-ocultar"href="#"><img src="images/logo.png" alt="logo"></a>
         <ul>
-          <li><a onclick="remove()" href="#">Inicio</a></li>
-          <li><a onclick="remove()" href="#blog">Blog</a></li>
+          <li><a onclick="remove()" href="#"><i class="fas fa-home"></i>Inicio</a></li>
+          <li><a onclick="remove()" href="#blog"><i class="fas fa-code"></i>Blog</a></li>
         </ul>
       </nav>
     </div>
@@ -30,7 +31,7 @@
     <div class="Hero-contenedor container">
       <div class="Hero-info">
         <p>Hola! mi nombre es <span>duvan molina</span> <br>en esta ocasion voy hablarles un poquito mas acerca de mi, mis motivaciones, propositos, mis fortalezas, mis debelidades, etc. Acompañame en estas fantasticas historias haciendo click en ver mas.</p>
-        <a class=" btn btn-success"href="/">Ver mas...</a>
+        <a class=" btn btn-success" href="#blog">Ver mas...</a>
       </div>
       <div class="Hero-img">
         <img src="images/astronautas.png" alt="logo">

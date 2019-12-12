@@ -25,3 +25,9 @@ function hideShow () {
 function remove(){
   nav.classList.remove('Header-active');
 }
+
+var scroll = new SmoothScroll('a[href*="#"]',{
+	speed: 1300,
+  speedAsDuration: true,
+  header: '[data-scroll-header]'
+});
