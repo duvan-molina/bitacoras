@@ -34,15 +34,22 @@ a:hover {
   align-items: center;
 }
 .Header-nav ul {
-  width: 10%;
+  width: 15%;
   margin: initial;
   display: flex;
   justify-content: space-between;
+}
+.Header-nav i {
+  margin-right: 3px;
+  font-size: .9em;
 }
 
 .Header-nav ul li a{
   font-size: 1.2rem;
   color: #fff;
+}
+.Header-nav li a:hover {
+  color: rgb(238, 234, 234);
 }
 
 /* seccion del hero */
