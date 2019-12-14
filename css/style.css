@@ -133,8 +133,11 @@ ul li h3 {
   font-weight: bold;
   font-size: 1.4em;
 }
-ul li p {
+.justificado {
   text-align: justify;
+}
+.modal-dialog {
+  max-width: 700px;
 }
 .version {
   display: flex;
@@ -149,7 +152,6 @@ ul li p {
 .version-img {
   height: 100%;
 }
-
 .Header-ocultar {
   display: none;
 }
