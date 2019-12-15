@@ -19,7 +19,7 @@ a:hover {
 .Header{
   position: fixed;
   height: 60px;
-  z-index: 1;
+  z-index: 2;
   width: 100%;
   background-color: #1C3643;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
@@ -63,6 +63,7 @@ a:hover {
 
 .Hero{
   position: relative;
+  z-index: 1;
   top: 60px;
   background-image: url('../images/stars.svg');
   height: 100vh;
@@ -106,6 +107,10 @@ a:hover {
   position: relative;
   top: 60px;
   padding: 20px 0;
+  height: 350px;
+}
+.tarjetas-olcultar {
+  display: none;
 }
 
 .tarjetas-titulo {
